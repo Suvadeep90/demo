@@ -1,19 +1,27 @@
 {
 	"catalog": [{
 			"name": "ONE",
-			"type": "Application"
+			"type": "Application",
+			"idm" : "oracle 11gR2",
+			"approver": "X.Y"
 		},
 		{
 			"name": "TWO",
-			"type": "Application"
+			"type": "Application",
+			"idm" : "oracle 12c",
+			"approver": "X.Y"
 		},
 		{
 			"name": "ONE",
-			"type": "Entitlement"
+			"type": "Entitlement",
+			"idm" : "oracle 11gR2",
+			"approver": "X.Y"
 		},
 		{
 			"name": "ONE",
-			"type": "Role"
+			"type": "Role",
+			"idm" : "oracle 11gR2",
+			"approver": "X.Y"
 		}
 	]
 }
