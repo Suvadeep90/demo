@@ -2,46 +2,45 @@
 	"catalog": [{
 			"name": "ONE",
 			"type": "Application",
-			"idm" : "oracle 11gR2",
+			"idm": "oracle 11gR2",
 			"approver": "X.Y",
-			"formFields":[{
-				"fieldname": "login",
-				"type": "String",
-				"required":"true"
-			},
-				      {
-				"fieldname": "firstname",
-				"type": "String",
-				"required":"false"
-			}
-				      {
-				"fieldname": "lastname",
-				"type": "String",
-				"required":"false"
-			}
-				      {
-				"fieldname": "login",
-				"type": "String",
-				"required":"true"
-			}]
+			"formFields": [{
+					"fieldname": "login",
+					"type": "String",
+					"required": "true"
+				},
+				{
+					"fieldname": "firstname",
+					"type": "String",
+					"required": "false"
+				}, {
+					"fieldname": "lastname",
+					"type": "String",
+					"required": "false"
+				}, {
+					"fieldname": "login",
+					"type": "String",
+					"required": "true"
+				}
+			]
 		},
 		{
 			"name": "TWO",
 			"type": "Application",
-			"idm" : "oracle 12c",
+			"idm": "oracle 12c",
 			"approver": "X.Y"
 		},
 		{
 			"name": "ONE",
 			"type": "Entitlement",
-			"idm" : "oracle 11gR2",
+			"idm": "oracle 11gR2",
 			"approver": "X.Y"
 		},
 		{
 			"name": "ONE",
 			"type": "Role",
-			"idm" : "oracle 11gR2",
+			"idm": "oracle 11gR2",
 			"approver": "X.Y"
 		}
-	]	
+	]
 }
