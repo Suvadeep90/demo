@@ -1,7 +1,7 @@
 {
 	"catalog": [{
 			"name": "ONE",
-			"id":"123",
+			"catalogid":"123",
 			"type": "Application",
 			"idm": "oracle 11gR2",
 			"approver": "X.Y",
@@ -27,21 +27,21 @@
 		},
 		{
 			"name": "TWO",
-			"id":"124",
+			"catalogid":"124",
 			"type": "Application",
 			"idm": "oracle 12c",
 			"approver": "X.Y"
 		},
 		{
 			"name": "ONE",
-			"id":"125",
+			"catalogid":"125",
 			"type": "Entitlement",
 			"idm": "oracle 11gR2",
 			"approver": "X.Y"
 		},
 		{
 			"name": "ONE",
-			"id":"126",
+			"catalogid":"126",
 			"type": "Role",
 			"idm": "oracle 11gR2",
 			"approver": "X.Y"
