@@ -26,10 +26,45 @@
 			]
 		},
 		{
-			"name": "TWO",
+			"name": "TEST APP TWO",
 			"catalogid":"124",
 			"type": "Application",
 			"idm": "oracle 12c",
+			"approver": "X.Y"
+		},
+		{
+			"name": "TEST APP ONE",
+			"catalogid":"127",
+			"type": "Application",
+			"idm": "oracle 12c",
+			"approver": "X.Y"
+		},
+		{
+			"name": "TEST APP THREE",
+			"catalogid":"128",
+			"type": "Application",
+			"idm": "oracle 11gR2",
+			"approver": "X.Y"
+		},
+		{
+			"name": "TEST ROLE THREE",
+			"catalogid":"129",
+			"type": "Role",
+			"idm": "oracle 11gR2",
+			"approver": "X.Y"
+		},
+		{
+			"name": "TEST ROLE ONE",
+			"catalogid":"129",
+			"type": "Role",
+			"idm": "oracle 11gR2",
+			"approver": "X.Y"
+		},
+		{
+			"name": "TEST ROLE TWO",
+			"catalogid":"130",
+			"type": "Role",
+			"idm": "oracle 11gR2",
 			"approver": "X.Y"
 		},
 		{
@@ -46,5 +81,57 @@
 			"idm": "oracle 11gR2",
 			"approver": "X.Y"
 		}
-	]
+	],
+	"userprofile":[{
+		"login":"TEST.USER",
+		"firstname":"TEST",
+		"lastname":"USER",
+		"status":"Active",
+		"employeeNumber":"GRG6789",
+		"managerKey":"987967",
+		"email":"test.user@email.com",
+		"displayName":"TEST USER",
+		"userkey":"435346",
+		"Role":[
+			"TEST ROLE ONE",
+			"TEST ROLE TWO",
+			"TEST ROLE THREE"
+		],
+		"Application":[
+			"TEST APPLICATION ONE",
+			"TEST APPLICATION TWO",
+			"TEST APPLICATION THREE"
+		]
+	},
+	{
+		"login":"TEST.MANAGER",
+		"firstname":"TEST",
+		"lastname":"MANAGER",
+		"status":"Active",
+		"employeeNumber":"ABC456",
+		"managerKey":"456789",
+		"email":"test.manager@email.com",
+		"displayName":"TEST MANAGER",
+		"userkey":"987967",
+		"Role":[
+			"TEST ROLE ONE",
+			"TEST ROLE TWO"
+		],
+		"Application":[
+			"TEST APPLICATION ONE",
+			"TEST APPLICATION TWO"
+		]
+	},
+	{
+		"login":"TEST.MANAGER2",
+		"firstname":"TEST",
+		"lastname":"MANAGER2",
+		"status":"Active",
+		"employeeNumber":"AFR456",
+		"managerKey":"456231",
+		"email":"test.manager2@email.com",
+		"displayName":"TEST MANAGER2",
+		"userkey":"987213"
+	}]
+
 }
