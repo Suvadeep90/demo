@@ -35,7 +35,7 @@
 			"approver": "X.Y"
 		},
 		{
-			"id": "cat127",
+			"id": "cat130",
 			"name": "TEST ROLE THREE",
 			"catalogid": "129",
 			"type": "Role",
@@ -138,12 +138,12 @@
 			"displayName":"TEST USER",
 			"userkey":"435346",
 			"Role":[
-				"TEST ROLE TWO",
-				"TEST ROLE THREE"
+				"cat127",
+				"cat130"
 			],
 			"Application":[
-				"TEST APPLICATION TWO",
-				"TEST APPLICATION THREE"
+				"cat124",
+				"cat126"
 			]
 		},
 		{
@@ -157,12 +157,12 @@
 			"displayName":"TEST MANAGER",
 			"userkey":"987967",
 			"Role":[
-				"TEST ROLE ONE",
-				"TEST ROLE TWO"
+				"cat127",
+				"cat128"
 			],
 			"Application":[
-				"TEST APPLICATION ONE",
-				"TEST APPLICATION TWO"
+				"cat124",
+				"cat125"
 			]
 		},
 		{
