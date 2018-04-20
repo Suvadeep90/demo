@@ -1,5 +1,6 @@
 {
-	"catalog": [{
+	"catalog": [
+		{
 			"id": "cat123",
 			"name": "ONE",
 			"catalogid": "123",
@@ -74,9 +75,11 @@
 			"approver": "X.Y"
 		}
 	],
-	"processForm": [{
+	"processForm": [
+		{
 			"id": "999",
-			"formFields": [{
+			"formFields": [
+				{
 					"fieldname": "login",
 					"type": "String",
 					"required": "true"
@@ -85,11 +88,13 @@
 					"fieldname": "firstname",
 					"type": "String",
 					"required": "false"
-				}, {
+				}, 
+				{
 					"fieldname": "lastname",
 					"type": "String",
 					"required": "false"
-				}, {
+				}, 
+				{
 					"fieldname": "email",
 					"type": "String",
 					"required": "true"
@@ -98,7 +103,8 @@
 		},
 		{
 			"id": "777",
-			"formFields": [{
+			"formFields": [
+				{
 					"fieldname": "login",
 					"type": "String",
 					"required": "true"
@@ -107,11 +113,13 @@
 					"fieldname": "firstname",
 					"type": "String",
 					"required": "false"
-				}, {
+				}, 
+				{
 					"fieldname": "lastname",
 					"type": "String",
 					"required": "false"
-				}, {
+				}, 
+				{
 					"fieldname": "email",
 					"type": "String",
 					"required": "true"
