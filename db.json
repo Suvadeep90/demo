@@ -73,5 +73,50 @@
 			"idm": "oracle 11gR2",
 			"approver": "X.Y"
 		}
+	],
+	"processForm": [{
+			"id": "999",
+			"formFields": [{
+					"fieldname": "login",
+					"type": "String",
+					"required": "true"
+				},
+				{
+					"fieldname": "firstname",
+					"type": "String",
+					"required": "false"
+				}, {
+					"fieldname": "lastname",
+					"type": "String",
+					"required": "false"
+				}, {
+					"fieldname": "email",
+					"type": "String",
+					"required": "true"
+				}
+			]
+		},
+		{
+			"id": "777",
+			"formFields": [{
+					"fieldname": "login",
+					"type": "String",
+					"required": "true"
+				},
+				{
+					"fieldname": "firstname",
+					"type": "String",
+					"required": "false"
+				}, {
+					"fieldname": "lastname",
+					"type": "String",
+					"required": "false"
+				}, {
+					"fieldname": "email",
+					"type": "String",
+					"required": "true"
+				}
+			]
+		}
 	]
 }
