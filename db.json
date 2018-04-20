@@ -1,10 +1,81 @@
 {
 	"catalog": [{
+			"id":"cat123",
 			"name": "ONE",
 			"catalogid":"123",
 			"type": "Application",
 			"idm": "oracle 11gR2",
 			"approver": "X.Y",
+			"formId":"666"
+		},
+		{
+			"id":"cat124",
+			"name": "TEST APP TWO",
+			"catalogid":"124",
+			"type": "Application",
+			"idm": "oracle 12c",
+			"approver": "X.Y"
+		},
+		{
+			"id":"cat125",
+			"name": "TEST APP ONE",
+			"catalogid":"127",
+			"type": "Application",
+			"idm": "oracle 12c",
+			"approver": "X.Y",
+			"formId":"999"
+		},
+		{
+			"id":"cat126",
+			"name": "TEST APP THREE",
+			"catalogid":"128",
+			"type": "Application",
+			"idm": "oracle 11gR2",
+			"approver": "X.Y"
+		},
+		{
+			"id":"cat127",
+			"name": "TEST ROLE THREE",
+			"catalogid":"129",
+			"type": "Role",
+			"idm": "oracle 11gR2",
+			"approver": "X.Y"
+		},
+		{
+			"id":"cat127",
+			"name": "TEST ROLE ONE",
+			"catalogid":"129",
+			"type": "Role",
+			"idm": "oracle 11gR2",
+			"approver": "X.Y"
+		},
+		{
+			"id":"cat128",
+			"name": "TEST ROLE TWO",
+			"catalogid":"130",
+			"type": "Role",
+			"idm": "oracle 11gR2",
+			"approver": "X.Y"
+		},
+		{
+			"id":"cat128",
+			"name": "ONE",
+			"catalogid":"125",
+			"type": "Entitlement",
+			"idm": "oracle 11gR2",
+			"approver": "X.Y"
+		},
+		{
+			"id":"cat129",
+			"name": "ONE",
+			"catalogid":"126",
+			"type": "Role",
+			"idm": "oracle 11gR2",
+			"approver": "X.Y"
+		}
+	],
+	"processForm":[{
+			"id":"999",
 			"formFields": [{
 					"fieldname": "login",
 					"type": "String",
@@ -19,119 +90,150 @@
 					"type": "String",
 					"required": "false"
 				}, {
-					"fieldname": "login",
+					"fieldname": "email",
 					"type": "String",
 					"required": "true"
 				}
 			]
 		},
 		{
-			"name": "TEST APP TWO",
-			"catalogid":"124",
-			"type": "Application",
-			"idm": "oracle 12c",
-			"approver": "X.Y"
+			"id":"777",
+			"formFields": [{
+					"fieldname": "login",
+					"type": "String",
+					"required": "true"
+				},
+				{
+					"fieldname": "firstname",
+					"type": "String",
+					"required": "false"
+				}, {
+					"fieldname": "lastname",
+					"type": "String",
+					"required": "false"
+				}, {
+					"fieldname": "email",
+					"type": "String",
+					"required": "true"
+				}
+			]
+		}
+	],
+	"requestForms":[{
+			"id":"1",
+			"login":"TEST.USER",
+			"firstname":"TEST",
+			"email":"test.user@email.com"
 		},
 		{
-			"name": "TEST APP ONE",
-			"catalogid":"127",
-			"type": "Application",
-			"idm": "oracle 12c",
-			"approver": "X.Y"
+			"id":"2",
+			"effectiveDate":"",
 		},
 		{
-			"name": "TEST APP THREE",
-			"catalogid":"128",
-			"type": "Application",
-			"idm": "oracle 11gR2",
-			"approver": "X.Y"
+			"id":"3",
+			"login":"TEST.USER",
+			"firstname":"TEST",
+			"email":"test.user@email.com"
 		},
 		{
-			"name": "TEST ROLE THREE",
-			"catalogid":"129",
-			"type": "Role",
-			"idm": "oracle 11gR2",
-			"approver": "X.Y"
-		},
-		{
-			"name": "TEST ROLE ONE",
-			"catalogid":"129",
-			"type": "Role",
-			"idm": "oracle 11gR2",
-			"approver": "X.Y"
-		},
-		{
-			"name": "TEST ROLE TWO",
-			"catalogid":"130",
-			"type": "Role",
-			"idm": "oracle 11gR2",
-			"approver": "X.Y"
-		},
-		{
-			"name": "ONE",
-			"catalogid":"125",
-			"type": "Entitlement",
-			"idm": "oracle 11gR2",
-			"approver": "X.Y"
-		},
-		{
-			"name": "ONE",
-			"catalogid":"126",
-			"type": "Role",
-			"idm": "oracle 11gR2",
-			"approver": "X.Y"
+			"id":"4",
+			"effectiveDate":"",
 		}
 	],
 	"userprofile":[{
-		"login":"TEST.USER",
-		"firstname":"TEST",
-		"lastname":"USER",
-		"status":"Active",
-		"employeeNumber":"GRG6789",
-		"managerLogin":"TEST.MANAGER",
-		"email":"test.user@email.com",
-		"displayName":"TEST USER",
-		"userkey":"435346",
-		"Role":[
-			"TEST ROLE ONE",
-			"TEST ROLE TWO",
-			"TEST ROLE THREE"
-		],
-		"Application":[
-			"TEST APPLICATION ONE",
-			"TEST APPLICATION TWO",
-			"TEST APPLICATION THREE"
-		]
-	},
-	{
-		"login":"TEST.MANAGER",
-		"firstname":"TEST",
-		"lastname":"MANAGER",
-		"status":"Active",
-		"employeeNumber":"ABC456",
-		"managerLogin":"TEST.MANAGER2",
-		"email":"test.manager@email.com",
-		"displayName":"TEST MANAGER",
-		"userkey":"987967",
-		"Role":[
-			"TEST ROLE ONE",
-			"TEST ROLE TWO"
-		],
-		"Application":[
-			"TEST APPLICATION ONE",
-			"TEST APPLICATION TWO"
-		]
-	},
-	{
-		"login":"TEST.MANAGER2",
-		"firstname":"TEST",
-		"lastname":"MANAGER2",
-		"status":"Active",
-		"employeeNumber":"AFR456",
-		"managerKey":"456231",
-		"email":"test.manager2@email.com",
-		"displayName":"TEST MANAGER2",
-		"userkey":"987213"
-	}]
-
+			"login":"TEST.USER",
+			"firstname":"TEST",
+			"lastname":"USER",
+			"status":"Active",
+			"employeeNumber":"GRG6789",
+			"managerLogin":"TEST.MANAGER",
+			"email":"test.user@email.com",
+			"displayName":"TEST USER",
+			"userkey":"435346",
+			"Role":[
+				"TEST ROLE TWO",
+				"TEST ROLE THREE"
+			],
+			"Application":[
+				"TEST APPLICATION TWO",
+				"TEST APPLICATION THREE"
+			]
+		},
+		{
+			"login":"TEST.MANAGER",
+			"firstname":"TEST",
+			"lastname":"MANAGER",
+			"status":"Active",
+			"employeeNumber":"ABC456",
+			"managerLogin":"TEST.MANAGER2",
+			"email":"test.manager@email.com",
+			"displayName":"TEST MANAGER",
+			"userkey":"987967",
+			"Role":[
+				"TEST ROLE ONE",
+				"TEST ROLE TWO"
+			],
+			"Application":[
+				"TEST APPLICATION ONE",
+				"TEST APPLICATION TWO"
+			]
+		},
+		{
+			"login":"TEST.MANAGER2",
+			"firstname":"TEST",
+			"lastname":"MANAGER2",
+			"status":"Active",
+			"employeeNumber":"AFR456",
+			"managerKey":"456231",
+			"email":"test.manager2@email.com",
+			"displayName":"TEST MANAGER2",
+			"userkey":"987213"
+		}
+	],
+	"request":[{
+			"id":"74701",
+			"status":"Obtaining Approval",
+			"entityid":"cat125",
+			"type":"Provision Application",
+			"formid":"1",
+			"beneficiary":"TEST.USER",
+			"assignedEntityId":"",
+			"raised":"TEST.MANAGER",
+			"createdDate":""
+		},
+		{
+			"id":"74701",
+			"status":"Obtaining Approval",
+			"entityid":"cat127",
+			"type":"Assign Role",
+			"formid":"2",
+			"beneficiary":"TEST.USER",
+			"assignedEntityId":"",
+			"raised":"TEST.USER",
+			"createdDate":""
+		},
+		
+		{
+			"id":"74701",
+			"status":"Obtaining Approval",
+			"entityid":"cat123",
+			"type":"Provision Application",
+			"formid":"3",
+			"beneficiary":"TEST.USER",
+			"assignedEntityId":"",
+			"raised":"TEST.USER",
+			"createdDate":""
+		},
+		{
+			"id":"74701",
+			"status":"Obtaining Approval",
+			"entityid":"cat127",
+			"type":"Assign Role",
+			"formid":"4",
+			"beneficiary":"TEST.USER2",
+			"assignedEntityId":"",
+			"raised":"TEST.MANAGER2",
+			"createdDate":""
+		}
+	]	
 }
