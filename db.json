@@ -224,20 +224,6 @@
 			"login":"TEST.USER",
 			"firstname":"TEST",
 			"email":"test.user@email.com"
-		},
-		{
-			"id":"2",
-			"effectiveDate":"12-OCT-2017"
-		},
-		{
-			"id":"3",
-			"login":"TEST.USER",
-			"firstname":"TEST",
-			"email":"test.user@email.com"
-		},
-		{
-			"id":"4",
-			"effectiveDate":"12-OCT-2017"
-		}	
+		}
 	]
 }
