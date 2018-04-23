@@ -1,6 +1,5 @@
 {
-	"catalog": [
-		{
+	"catalog": [{
 			"id": "cat123",
 			"name": "ONE",
 			"catalogid": "123",
@@ -75,210 +74,210 @@
 			"approver": "X.Y"
 		}
 	],
-	"processForm":[{
-  "id": "999",
-  "schema": {
-    "type": "object",
-    "title": "Comment",
-    "properties": {
-      "name": {
-        "title": "Name",
-        "type": "string"
-      },
-      "email": {
-        "title": "Email",
-        "type": "string",
-        "pattern": "^\\S+@\\S+$",
-        "description": "Email will be used for evil."
-      },
-      "comment": {
-        "title": "Comment",
-        "type": "string",
-        "maxLength": 20,
-        "validationMessage": "Don't be greedy!"
-      }
-    },
-    "required": [
-      "name",
-      "email",
-      "comment"
-    ]
-  },
-  "form": [
-    "name",
-    "email",
-    {
-      "key": "comment",
-      "type": "textarea",
-      "placeholder": "Make a comment"
-    },
-    {
-      "type": "submit",
-      "style": "btn-info",
-      "title": "OK"
-    }
-  ]
-},
-		       {
-  "id": "666",
-  "schema": {
-    "type": "object",
-    "title": "Comment",
-    "properties": {
-      "name": {
-        "title": "Name",
-        "type": "string"
-      },
-      "email": {
-        "title": "Email",
-        "type": "string",
-        "pattern": "^\\S+@\\S+$",
-        "description": "Email will be used for evil."
-      },
-      "comment": {
-        "title": "Comment",
-        "type": "string",
-        "maxLength": 20,
-        "validationMessage": "Don't be greedy!"
-      }
-    },
-    "required": [
-      "name",
-      "email",
-      "comment"
-    ]
-  },
-  "form": [
-    "name",
-    "email",
-    {
-      "key": "comment",
-      "type": "textarea",
-      "placeholder": "Make a comment"
-    },
-    {
-      "type": "submit",
-      "style": "btn-info",
-      "title": "OK"
-    }
-  ]
-}
-		      ],
-	"userprofile":[{
-			"login":"TEST.USER",
-			"firstname":"TEST",
-			"lastname":"USER",
-			"status":"Active",
-			"employeeNumber":"GRG6789",
-			"managerLogin":"TEST.MANAGER",
-			"email":"test.user@email.com",
-			"displayName":"TEST USER",
-			"userkey":"435346",
-			"Role":[
+	"processForm": [{
+			"id": "999",
+			"schema": {
+				"type": "object",
+				"title": "Comment",
+				"properties": {
+					"name": {
+						"title": "Name",
+						"type": "string"
+					},
+					"email": {
+						"title": "Email",
+						"type": "string",
+						"pattern": "^\\S+@\\S+$",
+						"description": "Email will be used for evil."
+					},
+					"comment": {
+						"title": "Comment",
+						"type": "string",
+						"maxLength": 20,
+						"validationMessage": "Don't be greedy!"
+					}
+				},
+				"required": [
+					"name",
+					"email",
+					"comment"
+				]
+			},
+			"form": [
+				"name",
+				"email",
+				{
+					"key": "comment",
+					"type": "textarea",
+					"placeholder": "Make a comment"
+				},
+				{
+					"type": "submit",
+					"style": "btn-info",
+					"title": "OK"
+				}
+			]
+		},
+		{
+			"id": "666",
+			"schema": {
+				"type": "object",
+				"title": "Comment",
+				"properties": {
+					"name": {
+						"title": "Name",
+						"type": "string"
+					},
+					"email": {
+						"title": "Email",
+						"type": "string",
+						"pattern": "^\\S+@\\S+$",
+						"description": "Email will be used for evil."
+					},
+					"comment": {
+						"title": "Comment",
+						"type": "string",
+						"maxLength": 20,
+						"validationMessage": "Don't be greedy!"
+					}
+				},
+				"required": [
+					"name",
+					"email",
+					"comment"
+				]
+			},
+			"form": [
+				"name",
+				"email",
+				{
+					"key": "comment",
+					"type": "textarea",
+					"placeholder": "Make a comment"
+				},
+				{
+					"type": "submit",
+					"style": "btn-info",
+					"title": "OK"
+				}
+			]
+		}
+	],
+	"userprofile": [{
+			"login": "TEST.USER",
+			"firstname": "TEST",
+			"lastname": "USER",
+			"status": "Active",
+			"employeeNumber": "GRG6789",
+			"managerLogin": "TEST.MANAGER",
+			"email": "test.user@email.com",
+			"displayName": "TEST USER",
+			"userkey": "435346",
+			"Role": [
 				"cat127",
 				"cat130"
 			],
-			"Application":[
+			"Application": [
 				"cat124",
 				"cat126"
 			]
 		},
 		{
-			"login":"TEST.MANAGER",
-			"firstname":"TEST",
-			"lastname":"MANAGER",
-			"status":"Active",
-			"employeeNumber":"ABC456",
-			"managerLogin":"TEST.MANAGER2",
-			"email":"test.manager@email.com",
-			"displayName":"TEST MANAGER",
-			"userkey":"987967",
-			"Role":[
+			"login": "TEST.MANAGER",
+			"firstname": "TEST",
+			"lastname": "MANAGER",
+			"status": "Active",
+			"employeeNumber": "ABC456",
+			"managerLogin": "TEST.MANAGER2",
+			"email": "test.manager@email.com",
+			"displayName": "TEST MANAGER",
+			"userkey": "987967",
+			"Role": [
 				"cat127",
 				"cat128"
 			],
-			"Application":[
+			"Application": [
 				"cat124",
 				"cat125"
 			]
 		},
 		{
-			"login":"TEST.MANAGER2",
-			"firstname":"TEST",
-			"lastname":"MANAGER2",
-			"status":"Active",
-			"employeeNumber":"AFR456",
-			"managerKey":"456231",
-			"email":"test.manager2@email.com",
-			"displayName":"TEST MANAGER2",
-			"userkey":"987213"
+			"login": "TEST.MANAGER2",
+			"firstname": "TEST",
+			"lastname": "MANAGER2",
+			"status": "Active",
+			"employeeNumber": "AFR456",
+			"managerKey": "456231",
+			"email": "test.manager2@email.com",
+			"displayName": "TEST MANAGER2",
+			"userkey": "987213"
 		}
 	],
-	"request":[{
-			"id":"74701",
-			"status":"Obtaining Approval",
-			"entityid":"cat125",
-			"type":"Provision Application",
-			"formid":"1",
-			"beneficiary":"TEST.USER",
-			"raised":"TEST.MANAGER",
-			"assignedTo":"TEST.USER2",
-			"createdDate":""
+	"request": [{
+			"id": "74701",
+			"status": "Obtaining Approval",
+			"entityid": "cat125",
+			"type": "Provision Application",
+			"formid": "1",
+			"beneficiary": "TEST.USER",
+			"raised": "TEST.MANAGER",
+			"assignedTo": "TEST.USER2",
+			"createdDate": ""
 		},
 		{
-			"id":"74701",
-			"status":"Obtaining Approval",
-			"entityid":"cat127",
-			"type":"Assign Role",
-			"formid":"2",
-			"beneficiary":"TEST.USER",
-			"raised":"TEST.USER",
-			"assignedTo":"TEST.USER2",
-			"createdDate":""
+			"id": "74701",
+			"status": "Obtaining Approval",
+			"entityid": "cat127",
+			"type": "Assign Role",
+			"formid": "2",
+			"beneficiary": "TEST.USER",
+			"raised": "TEST.USER",
+			"assignedTo": "TEST.USER2",
+			"createdDate": ""
 		},
-		
+
 		{
-			"id":"74701",
-			"status":"Obtaining Approval",
-			"entityid":"cat123",
-			"type":"Provision Application",
-			"formid":"3",
-			"beneficiary":"TEST.USER",
-			"raised":"TEST.USER",
-			"assignedTo":"TEST.USER2",
-			"createdDate":""
+			"id": "74701",
+			"status": "Obtaining Approval",
+			"entityid": "cat123",
+			"type": "Provision Application",
+			"formid": "3",
+			"beneficiary": "TEST.USER",
+			"raised": "TEST.USER",
+			"assignedTo": "TEST.USER2",
+			"createdDate": ""
 		},
 		{
-			"id":"74701",
-			"status":"Obtaining Approval",
-			"entityid":"cat127",
-			"type":"Assign Role",
-			"formid":"4",
-			"beneficiary":"TEST.USER2",
-			"raised":"TEST.MANAGER2",
-			"assignedTo":"TEST.USER",
-			"createdDate":""
+			"id": "74701",
+			"status": "Obtaining Approval",
+			"entityid": "cat127",
+			"type": "Assign Role",
+			"formid": "4",
+			"beneficiary": "TEST.USER2",
+			"raised": "TEST.MANAGER2",
+			"assignedTo": "TEST.USER",
+			"createdDate": ""
 		}
 	],
-	"requestForms":[{
-			"id":"1",
-			"login":"TEST.USER",
-			"firstname":"TEST",
-			"email":"test.user@email.com"
+	"requestForms": [{
+			"id": "1",
+			"login": "TEST.USER",
+			"firstname": "TEST",
+			"email": "test.user@email.com"
 		},
 		{
-			"id":"2",
-			"effectiveDate":"12-OCT-2017"
+			"id": "2",
+			"effectiveDate": "12-OCT-2017"
 		},
 		{
-			"id":"3",
-			"login":"TEST.USER",
-			"firstname":"TEST",
-			"email":"test.user@email.com"
+			"id": "3",
+			"login": "TEST.USER",
+			"firstname": "TEST",
+			"email": "test.user@email.com"
 		},
 		{
-			"id":"4",
-			"effectiveDate":"12-OCT-2017"
+			"id": "4",
+			"effectiveDate": "12-OCT-2017"
 		}
 	]
 }
