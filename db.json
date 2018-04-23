@@ -75,7 +75,7 @@
 			"approver": "X.Y"
 		}
 	],
-	processForm:[{
+	"processForm":[{
   "id": "999",
   "schema": {
     "type": "object",
