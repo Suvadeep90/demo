@@ -79,19 +79,20 @@
 			"schema": {
 				"type": "object",
 				"title": "Comment",
-				"properties": [{
-						"title": "Name",
-						"type": "string"
+				"formAttributes": [{
+						"name": "Name",
+						"dataType": "string"
 					},
 					{
-						"title": "Email",
-						"type": "string",
+						"name": "Email",
+						"dataType": "string",
+						"isRequired": "true",
 						"pattern": "^\\S+@\\S+$",
 						"description": "Email will be used for evil."
 					},
 					{
-						"title": "Comment",
-						"type": "string",
+						"name": "Comment",
+						"dataType": "string",
 						"maxLength": 20,
 						"validationMessage": "Don't be greedy!"
 					}
@@ -122,19 +123,20 @@
 			"schema": {
 				"type": "object",
 				"title": "Comment",
-				"properties": [{
-						"title": "Name",
-						"type": "string"
+				"formAttributes": [{
+						"name": "Name",
+						"dataType": "string"
 					},
 					{
-						"title": "Email",
-						"type": "string",
+						"name": "Email",
+						"dataType": "string",
+						"isRequired": "true",
 						"pattern": "^\\S+@\\S+$",
 						"description": "Email will be used for evil."
 					},
 					{
-						"title": "Comment",
-						"type": "string",
+						"name": "Comment",
+						"dataType": "string",
 						"maxLength": 20,
 						"validationMessage": "Don't be greedy!"
 					}
