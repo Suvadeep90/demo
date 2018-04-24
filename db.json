@@ -124,21 +124,17 @@
 				"type": "object",
 				"title": "Comment",
 				"formAttributes": [{
-						"name": "Name",
+						"name": "Firstname",
 						"dataType": "string"
 					},
 					{
-						"name": "Email",
+						"name": "Lastname",
 						"dataType": "string",
-						"isRequired": "true",
-						"pattern": "^\\S+@\\S+$",
-						"description": "Email will be used for evil."
 					},
 					{
-						"name": "Comment",
+						"name": "User Login",
 						"dataType": "string",
-						"maxLength": 20,
-						"validationMessage": "Don't be greedy!"
+						"isRequired": "true",
 					}
 				],
 				"required": [
