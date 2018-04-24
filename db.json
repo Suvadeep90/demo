@@ -129,12 +129,12 @@
 					},
 					{
 						"name": "Lastname",
-						"dataType": "string",
+						"dataType": "string"
 					},
 					{
 						"name": "User Login",
 						"dataType": "string",
-						"isRequired": "true",
+						"isRequired": "true"
 					}
 				],
 				"required": [
