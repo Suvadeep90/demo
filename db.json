@@ -75,93 +75,91 @@
 		}
 	],
 	"processForm": [{
-    "id": "999",
-    "schema": {
-      "type": "object",
-      "title": "Comment",
-      "properties": [
-        {
-          "title": "Name",
-          "type": "string"
-        },
-        {
-          "title": "Email",
-          "type": "string",
-          "pattern": "^\\S+@\\S+$",
-          "description": "Email will be used for evil."
-        },
-        {
-          "title": "Comment",
-          "type": "string",
-          "maxLength": 20,
-          "validationMessage": "Don't be greedy!"
-        }
-      ],
-      "required": [
-        "name",
-        "email",
-        "comment"
-      ]
-    },
-    "form": [
-      "name",
-      "email",
-      {
-        "key": "comment",
-        "type": "textarea",
-        "placeholder": "Make a comment"
-      },
-      {
-        "type": "submit",
-        "style": "btn-info",
-        "title": "OK"
-      }
-    ]
-  },
+			"id": "999",
+			"schema": {
+				"type": "object",
+				"title": "Comment",
+				"properties": [{
+						"title": "Name",
+						"type": "string"
+					},
+					{
+						"title": "Email",
+						"type": "string",
+						"pattern": "^\\S+@\\S+$",
+						"description": "Email will be used for evil."
+					},
+					{
+						"title": "Comment",
+						"type": "string",
+						"maxLength": 20,
+						"validationMessage": "Don't be greedy!"
+					}
+				],
+				"required": [
+					"name",
+					"email",
+					"comment"
+				]
+			},
+			"form": [
+				"name",
+				"email",
+				{
+					"key": "comment",
+					"type": "textarea",
+					"placeholder": "Make a comment"
+				},
+				{
+					"type": "submit",
+					"style": "btn-info",
+					"title": "OK"
+				}
+			]
+		},
 		{
-    "id": "666",
-    "schema": {
-      "type": "object",
-      "title": "Comment",
-      "properties": [
-        {
-          "title": "Name",
-          "type": "string"
-        },
-        {
-          "title": "Email",
-          "type": "string",
-          "pattern": "^\\S+@\\S+$",
-          "description": "Email will be used for evil."
-        },
-        {
-          "title": "Comment",
-          "type": "string",
-          "maxLength": 20,
-          "validationMessage": "Don't be greedy!"
-        }
-      ],
-      "required": [
-        "name",
-        "email",
-        "comment"
-      ]
-    },
-    "form": [
-      "name",
-      "email",
-      {
-        "key": "comment",
-        "type": "textarea",
-        "placeholder": "Make a comment"
-      },
-      {
-        "type": "submit",
-        "style": "btn-info",
-        "title": "OK"
-      }
-    ]
-  }
+			"id": "666",
+			"schema": {
+				"type": "object",
+				"title": "Comment",
+				"properties": [{
+						"title": "Name",
+						"type": "string"
+					},
+					{
+						"title": "Email",
+						"type": "string",
+						"pattern": "^\\S+@\\S+$",
+						"description": "Email will be used for evil."
+					},
+					{
+						"title": "Comment",
+						"type": "string",
+						"maxLength": 20,
+						"validationMessage": "Don't be greedy!"
+					}
+				],
+				"required": [
+					"name",
+					"email",
+					"comment"
+				]
+			},
+			"form": [
+				"name",
+				"email",
+				{
+					"key": "comment",
+					"type": "textarea",
+					"placeholder": "Make a comment"
+				},
+				{
+					"type": "submit",
+					"style": "btn-info",
+					"title": "OK"
+				}
+			]
+		}
 	],
 	"userprofile": [{
 			"login": "TEST.USER",
